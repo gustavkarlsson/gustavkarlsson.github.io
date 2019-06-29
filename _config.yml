@@ -1,23 +1,23 @@
 # Site
-repository: sproogen/resume-theme
+repository: gustavkarlsson/gustavkarlsson.github.io
 # favicon: images/favicon.ico
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Gustav Karlsson
+title: Software Engineer
+email: gustav.karlsson@gmail.com
+website: https://gustavkarlsson.github.io
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: gkarlsson86
+github_username:  gustavkarlsson
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+# instagram_username: chillwildlife
+linkedin_username: gustavkarlsson86
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section

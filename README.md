@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+# Just a resume
 
-You can use the [editor on GitHub](https://github.com/gustavkarlsson/gustavkarlsson.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Based on this template: https://github.com/sproogen/modern-resume-theme
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Usage
 
-### Markdown
+Edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##### _config.yml
+This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
+A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+##### _data/education.yml
+A list of all your education, each education will follow this format
+```
+- layout: left (options: left, right, top, top-right, top-middle)
+  name: Institution name
+  dates: Date Range (eg. 2016 - 2019)
+  qualification: Qualifications (eg. BA Performing Arts)
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##### _data/experience.yml
+A list of all your experience, each experience will follow this format
+```
+- layout: left (options: left, right, top, top-right, top-middle)
+  company: Company name
+  link: Link to company (eg. https://google.com)(optional)
+  job_title: Job title
+  dates: Date Range (eg. November 2016 - present)
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+```
 
-### Jekyll Themes
+If you wish to specify multiple job titles for a single company, use this format
+```
+- layout: left (options: left, right, top, top-right, top-middle)
+  company: Company name
+  link: Link to company (optional)
+  jobs:
+    - title: Job title 1
+      dates: Date Range (eg. November 2016 - present)
+    - title: Job title 2
+      dates: Date Range (eg. January 2015 - November 2016)
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gustavkarlsson/gustavkarlsson.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+##### _data/projects.yml
+A list of all your projects, each project will follow this format
+```
+- layout: left (options: left, right, top, top-right, top-middle)
+  name: Project name
+  link: Link to project (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description about the work on/with the project
+```
 
-### Support or Contact
+##### assets/main.scss
+Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Running locally
+
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+
+1. Clone your resume repository locally *(if you haven't already)*
+2. `cd [your-repository-name]`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
+
+Any changes you make will automatically build and you will be able to see these by refreshing your browser.
+
+*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/modern-resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/modern-resume-theme/blob/master/CONTRIBUTING.md)
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+### Locally
+
+Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+
+*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
+
+1. Fork and or clone this repository locally
+2. `cd modern-resume-theme`
+3. `bundle install`
+4. `bundle exec jekyll serve`
+5. Open your browser to `http://localhost:4000`
+
+Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
+
+*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
+
+### Docker
+
+If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`

@@ -6,45 +6,46 @@ repository: gustavkarlsson/gustavkarlsson.github.io
 name: Gustav Karlsson
 title: Software Engineer
 email: gustav.karlsson@gmail.com
-website: https://gustavkarlsson.github.io
+website: gustavkarlsson.github.io
 
 # Social links
 twitter_username: gkarlsson86
 github_username:  gustavkarlsson
+linkedin_username: gustavkarlsson86
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: chillwildlife
-linkedin_username: gustavkarlsson86
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_title: About Me
+about_profile_image: images/profile2.jpg 
+about_content: |
+  Hi, I'm Gustav. I'm a software engineer based in Frankfurt, Germany. I like throwing 1's and 0's together to make stuff.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I'm currently working as a Senior Android Developer for [ioki GmbH](https://ioki.com)
 
 # Projects Section
-# projects_title: Projects
+projects_title: Projects
 
 # Experience Section
-# experience_title: Experience
+experience_title: Experience
 
 # Education Section
-# educaton_title: Education
+educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
+   - Music (mostly jazz and funk)
    - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+   - British panel shows
+   - Philosophy
+   - Long walks on the beach...
 
 # Footer
 footer_show_references: true

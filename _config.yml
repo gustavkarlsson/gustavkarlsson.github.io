@@ -24,9 +24,9 @@ linkedin_username: gustavkarlsson86
 about_title: About Me
 about_profile_image: images/profile.jpg 
 about_content: |
-  Hi, I'm Gustav. I'm a software engineer based in Frankfurt, Germany. I like throwing 1's and 0's together to make stuff.
+  Hi, I'm Gustav. I'm a software engineer based in Frankfurt, Germany. I put 1's and 0's together to make stuff.
 
-  I'm currently working as a Senior Android Developer for [ioki GmbH](https://ioki.com)
+  I'm currently working as a Senior Android Developer for [ioki](https://ioki.com).
 
 # Projects Section
 projects_title: Projects
@@ -39,12 +39,12 @@ educaton_title: Education
 
 # More Section
 more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
+more_content: |
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
    - Music (mostly jazz and funk)
    - Gaming
-   - British panel shows
    - Philosophy
+   - British panel shows
    - Long walks on the beach...
 
 # Footer

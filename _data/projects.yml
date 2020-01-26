@@ -1,8 +1,9 @@
 - layout: top-middle
   name: Skylight - The Aurora App
-  link: github.com/gustavkarlsson/skylight-android
-  github: sproogen/gustavkarlsson/skylight-android
-  quote: >
-    TODO
+  github: gustavkarlsson/skylight-android
   description: |
-    TODO
+    Skylight is a pet project I've been building and maintaining for many years. It's an app that will notifying you when you can see the northern lights. The project consists of an Android app and a small supporting backend server.
+
+    For me, the app is also a place where I try out new ideas. I've rewritten it several times (more and less from scratch) and it continues to be one of my primary learning tools.
+
+    Check it out on the [Google Play Store](https://play.google.com/store/apps/details?id=se.gustavkarlsson.skylight.android)

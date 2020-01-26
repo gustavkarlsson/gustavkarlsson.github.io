@@ -3,44 +3,48 @@
   link: ioki.com
   job_title: Senior Android Developer
   dates: 2017 - Present
-  quote: >
-    The on-demand platform for a strong public transport system
   description: |
-    * TODO
+    At Ioki we're building an on-demand platform for a strong public transport systems. As the de-facto lead of the Android team, my job consists of tasks such as:
+
+    * Native Android development using Kotlin
+    * Planning and prioritizing work in a Scrum environment
+    * Architecting the application together with the rest of the team
+    * Onboarding new team members to the company and team
+    * Representing the Android side when introducing new platform features
 
 - layout: left
-  company: 360T Treasury Systems AG (Frankfurt)
+  company: 360 Treasury Systems AG (Frankfurt)
   link: 360t.com
   job_title: Software Engineer
   dates: 2016 - 2017
-  quote: >
-    The Global FX Marketplace
   description: |
-    * Developing and maintaining a large number of small Java applications that interact with customer systems and API:s.
-    * Architecting new solutions to large-scale problems.
-    * Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email.
-    * Frequent presenter at internal developer meetups.
-    * Mentoring of working students and other newcomers.
+    360T is a foreign exchange marketplace and was my first workplace in Germany. I was part of the integration team, connecting client finance systems with the 360T platform to enable trading. Tasks consisted of:
+
+    * Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
+    * Architecting new solutions to large-scale problems
+    * Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
+    * Frequent presenter at internal developer meetups
+    * Mentoring of working students and other newcomers
 
 - layout: left
   company: C4 Contexture AB (Umeå)
-  link: c4contexture.com
+  link: ariser.se/pim
   job_title: Integration Consultant
   dates: 2015 - 2016
-  quote: >
-    Experts on information logistics och Product Information Management
   description: |
-    * Integrating Product Information Management systems on customer systems.
-    * Solving modelling problems in line with customer needs.
+    C4 Contexture (since acquired by [Ariser](https://ariser.se)) was a software company specializing in building Product Information Management systems. My tasks during my (relatively short) time at the company included:
+
+    * Integrating Product Information Management systems oncustomer systems using proprietary configuration and scripting tools
+    * Solving modelling problems in line with customer needs
 
 - layout: left
   company: Tieto Sweden AB (Umeå)
-  link: c4contexture.com
+  link: tieto.com/se
   job_title: Software Developer
   dates: 2011 - 2015
-  quote: >
-    A leading Nordic IT services and software company
   description: |
-    * Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket.
-    * Discussing requirements and goals with customers on a daily basis.
-    * Travelling abroad to train other development teams.
+    Tieto is a leading Nordic IT services and software company and my first workplace. At the time I was working there, the Umeå office specialised mostly in telecom. Some of the things I did in my team was:
+
+    * Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
+    * Discussing requirements and goals with customers on a daily basis
+    * Travelling abroad to train other development teams

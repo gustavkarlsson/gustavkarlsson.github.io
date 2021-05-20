@@ -49,6 +49,33 @@ about_content: |
   I'm currently working as a Senior Android Developer for [ioki](https://ioki.com).
 
 content:
+  - title: Notable skills
+    layout: text
+    content: |
+      These are some of my more important skills:
+       - Clean code
+       - Software architecture
+       - Android SDK
+       - Android Jetpack
+       - Kotlin
+       - Coroutines
+       - Kotlin flow
+       - Jetpack Compose
+       - Unidirectional data flow
+       - Java
+       - RxJava
+       - Testing (unit/integration/instrumentation)
+       - Gradle
+       - Git
+       - Modularizing
+       - Firebase
+       - RESTful web services
+       - Material Design
+       - Analytics and tracking
+       - Error monitoring
+
+      For soft skills, you'd best just get in touch with me ;)
+
   - title: Projects
     layout: list
     content:
@@ -136,7 +163,6 @@ content:
        - Gaming
        - Philosophy
        - British panel shows
-       - Long walks on the beach...
 
 # Footer
 footer_show_references: true

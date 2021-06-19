@@ -13,18 +13,18 @@ sidebar:
 
     # Sidebar links
     email: gustav.karlsson@gmail.com
-    # phone: 012 345 6789
     website: gustavkarlsson.github.io #do not add http://
     linkedin: gustavkarlsson86
-    # xing: alandoe
     github: gustavkarlsson
-    # telegram: # add your nickname without '@' sign
-    # gitlab:
-    # bitbucket:
     twitter: '@gkarlsson86'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
+    # telegram: # nickname without '@'
+    # codewars:
+    # gitlab:
+    # bitbucket:
+    # phone:
+    # xing:
 
     languages:
       - idiom: Swedish
@@ -49,32 +49,31 @@ sidebar:
       - item: British panel shows
         link:
 
+      # - item: I also like people peeking through the source code of my projects. Hi!
+      #   link:
+
 career-profile:
     title: Career Profile
     summary: |
-      Hi, I’m Gustav. I’m a software engineer based in Frankfurt, Germany.
-      I put 1’s and 0’s together to make stuff.
-      
-      I’m currently working as a Senior Android Developer for [ioki](https://ioki.com).
-education:
-    - degree: Bachelor's degree in Computer Science
-      university: Umeå University
-      time: 2006 - 2015
-      details: |
-        Studied Computer Science until 2011 when I took a study break to work at Tieto.
-        A few years later I finished the studies with a thesis project.
+      Senior software engineer currently living in Frankfurt, Germany.
+      De-facto lead developer of a small Android development team at [ioki.com](http://ioki.com) with plenty of with experience of backend development as well.
+      Passionate about good engineering, comprehensible code, and great user experiences.
+
+      Referencess available on request.
+
 experiences:
     - role: Senior Android Developer
       time: 2017 - Present
       company: ioki GmbH, Frankfurt am Main
       details: |
-        At Ioki we’re building an on-demand platform for strong public transport systems.
-        As the de-facto lead of the Android team, my job consists of tasks such as:
-          - Native Android development using Kotlin
+        At Ioki, we’re building an on-demand platform for strong public transport systems.
+        My job mostly consists of tasks such as:
+          - Native Android development using modern technologies
           - Planning and prioritizing work in a Scrum environment
           - Architecting the application together with the rest of the team
           - Onboarding new team members to the company and team
           - Representing the Android side when introducing new platform features
+
     - role: Software Engineer
       time: 2016 - 2017
       company: 360 Treasury Systems AG, Frankfurt am Main
@@ -87,6 +86,7 @@ experiences:
           - Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
           - Frequent presenter at internal developer meetups
           - Mentoring of working students and other newcomers
+
     - role: Integration Consultant
       time: 2015 - 2016
       company: C4 Contexture AB, Umeå
@@ -95,6 +95,7 @@ experiences:
         My tasks during my (relatively short) time at the company included:
           - Integrating Product Information Management systems oncustomer systems using proprietary configuration and scripting tools
           - Solving modelling problems in line with customer needs
+
     - role: Software Developer
       time: 2011 - 2015
       company: Tieto Sweden AB, Umeå
@@ -104,6 +105,15 @@ experiences:
           - Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
           - Discussing requirements and goals with customers on a daily basis
           - Travelling abroad to train other development teams
+
+education:
+    - degree: Bachelor's degree in Computer Science
+      university: Umeå University
+      time: 2006 - 2015
+      details: |
+        Studied Computer Science until 2011 when I took a study break to work at Tieto.
+        A few years later I finished the studies with a thesis project.
+
 projects:
     title: Projects
     assignments:
@@ -126,60 +136,66 @@ projects:
 #         link: "#"
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
-# 
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-# 
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
     toolset:
       - name: Clean code
         level: 50%
+
       - name: Software architecture
         level: 50%
+
       - name: Android SDK
         level: 50%
+
       - name: Android Jetpack
         level: 50%
+
       - name: Kotlin
         level: 50%
+
       - name: Coroutines
         level: 50%
+
       - name: Kotlin flow
         level: 50%
+
       - name: Jetpack Compose
         level: 50%
+
       - name: Unidirectional data flow
         level: 50%
+
       - name: Java
         level: 50%
+
       - name: RxJava
         level: 50%
+
       - name: Testing (unit/integration/instrumentation)
         level: 50%
+
       - name: Gradle
         level: 50%
+
       - name: Git
         level: 50%
+
       - name: Modularizing
         level: 50%
+
       - name: Firebase
         level: 50%
+
       - name: RESTful web services
         level: 50%
+
       - name: Material Design
         level: 50%
+
       - name: Analytics and tracking
         level: 50%
+
       - name: Error monitoring
         level: 50%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

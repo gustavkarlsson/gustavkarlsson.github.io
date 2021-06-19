@@ -3,189 +3,183 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: false # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Gustav Karlsson
+    tagline: Senior Android Developer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: gustav.karlsson@gmail.com
+    # phone: 012 345 6789
+    website: gustavkarlsson.github.io #do not add http://
+    linkedin: gustavkarlsson86
+    # xing: alandoe
+    github: gustavkarlsson
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    twitter: '@gkarlsson86'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Swedish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Fluent
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Very poor
 
     interests:
-      - item: Climbing
+      - item: Music
         link:
 
-      - item: Snowboarding
+      - item: Tech
         link:
 
-      - item: Cooking
+      - item: Philosophy
+        link:
+
+      - item: British panel shows
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hi, I’m Gustav. I’m a software engineer based in Frankfurt, Germany.
+      I put 1’s and 0’s together to make stuff.
+      
+      I’m currently working as a Senior Android Developer for [ioki](https://ioki.com).
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Bachelor's degree in Computer Science
+      university: Umeå University
+      time: 2006 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Studied Computer Science until 2011 when I took a study break to work at Tieto.
+        A few years later I finished the studies with a thesis project.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Android Developer
+      time: 2017 - Present
+      company: ioki GmbH, Frankfurt am Main
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        At Ioki we’re building an on-demand platform for strong public transport systems.
+        As the de-facto lead of the Android team, my job consists of tasks such as:
+          - Native Android development using Kotlin
+          - Planning and prioritizing work in a Scrum environment
+          - Architecting the application together with the rest of the team
+          - Onboarding new team members to the company and team
+          - Representing the Android side when introducing new platform features
+    - role: Software Engineer
+      time: 2016 - 2017
+      company: 360 Treasury Systems AG, Frankfurt am Main
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        360T is a foreign exchange marketplace and was my first workplace in Germany.
+        I was part of the integration team, connecting client finance systems with
+        the 360T platform to enable trading. Tasks consisted of:
+          - Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
+          - Architecting new solutions to large-scale problems
+          - Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
+          - Frequent presenter at internal developer meetups
+          - Mentoring of working students and other newcomers
+    - role: Integration Consultant
+      time: 2015 - 2016
+      company: C4 Contexture AB, Umeå
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        C4 Contexture (since acquired by [Ariser](https://ariser.se/)) was a software company specializing in building Product Information Management systems.
+        My tasks during my (relatively short) time at the company included:
+          - Integrating Product Information Management systems oncustomer systems using proprietary configuration and scripting tools
+          - Solving modelling problems in line with customer needs
+    - role: Software Developer
+      time: 2011 - 2015
+      company: Tieto Sweden AB, Umeå
+      details: |
+        Tieto (now [TietoEVRY](https://www.tietoevry.com/)) is a leading Nordic IT services and software company and my first workplace. At the time I was working there,
+        the Umeå office specialised mostly in telecom. Some of the things I did in my team was:
+          - Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
+          - Discussing requirements and goals with customers on a daily basis
+          - Travelling abroad to train other development teams
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Skylight - The Aurora App
+        link: "https://github.com/gustavkarlsson/skylight-android"
+        tagline: |
+          The development of this Android app started in 2015 and has been a huge source of learnings for me.
+          I use it mostly as a way to learn and try out new ideas.
+          It has gone major rewrites, a language change to Kotlin, modularization, migration to RxJava,
+          migration to coroutines, migration to Jetpack Compose, and much more.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+# 
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# 
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Clean code
+        level: 50%
+      - name: Software architecture
+        level: 50%
+      - name: Android SDK
+        level: 50%
+      - name: Android Jetpack
+        level: 50%
+      - name: Kotlin
+        level: 50%
+      - name: Coroutines
+        level: 50%
+      - name: Kotlin flow
+        level: 50%
+      - name: Jetpack Compose
+        level: 50%
+      - name: Unidirectional data flow
+        level: 50%
+      - name: Java
+        level: 50%
+      - name: RxJava
+        level: 50%
+      - name: Testing (unit/integration/instrumentation)
+        level: 50%
+      - name: Gradle
+        level: 50%
+      - name: Git
+        level: 50%
+      - name: Modularizing
+        level: 50%
+      - name: Firebase
+        level: 50%
+      - name: RESTful web services
+        level: 50%
+      - name: Material Design
+        level: 50%
+      - name: Analytics and tracking
+        level: 50%
+      - name: Error monitoring
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

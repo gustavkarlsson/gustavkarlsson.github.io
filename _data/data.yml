@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Gustav Karlsson
     tagline: Senior Android Developer
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/
 
     # Sidebar links
     email: gustav.karlsson@gmail.com
@@ -56,7 +56,7 @@ career-profile:
     title: Career Profile
     summary: |
       Senior software engineer currently living in Frankfurt, Germany.
-      De-facto lead developer of a small Android development team at [ioki.com](http://ioki.com) with plenty of with experience of backend development as well.
+      De-facto lead developer of a small Android team at [ioki.com](http://ioki.com) with plenty of prior experience in backend development as well.
       Passionate about good engineering, comprehensible code, and great user experiences.
 
       Referencess available on request.
@@ -66,20 +66,21 @@ experiences:
       time: 2017 - Present
       company: ioki GmbH, Frankfurt am Main
       details: |
-        At Ioki, we’re building an on-demand platform for strong public transport systems.
-        My job mostly consists of tasks such as:
-          - Native Android development using modern technologies
-          - Planning and prioritizing work in a Scrum environment
-          - Architecting the application together with the rest of the team
-          - Onboarding new team members to the company and team
-          - Representing the Android side when introducing new platform features
+        At Ioki, we're building an on-demand platform for efficient and flexible public transport systems.
+        As the longest standing member of the team, I have laid a lot of the foundation and architecture for this rather complex application.
+        A few notable responsibilities:
+          - Representing the Android side of things when discussing product-wide features
+          - Played a big role in the hiring and interviewing other co-workers
+          - Mentoring of new team members
+          - Made major contributions to modularizing the codebase
+          - Introduced a state-machine-backed unidirectional dataflow approach to development
 
     - role: Software Engineer
       time: 2016 - 2017
       company: 360 Treasury Systems AG, Frankfurt am Main
       details: |
         360T is a foreign exchange marketplace and was my first workplace in Germany.
-        I was part of the integration team, connecting client finance systems with
+        I was part of the integration team, connecting client finance systems (banks and large corporations) with
         the 360T platform to enable trading. Tasks consisted of:
           - Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
           - Architecting new solutions to large-scale problems
@@ -93,7 +94,7 @@ experiences:
       details: |
         C4 Contexture (since acquired by [Ariser](https://ariser.se/)) was a software company specializing in building Product Information Management systems.
         My tasks during my (relatively short) time at the company included:
-          - Integrating Product Information Management systems oncustomer systems using proprietary configuration and scripting tools
+          - Integrating Product Information Management systems on customer provided platforms using proprietary configuration and scripting tools
           - Solving modelling problems in line with customer needs
 
     - role: Software Developer
@@ -101,7 +102,7 @@ experiences:
       company: Tieto Sweden AB, Umeå
       details: |
         Tieto (now [TietoEVRY](https://www.tietoevry.com/)) is a leading Nordic IT services and software company and my first workplace. At the time I was working there,
-        the Umeå office specialised mostly in telecom. Some of the things I did in my team was:
+        the Umeå office specialised mostly in telecom. Some of the things I did in the team was:
           - Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
           - Discussing requirements and goals with customers on a daily basis
           - Travelling abroad to train other development teams
@@ -117,7 +118,7 @@ education:
 projects:
     title: Projects
     assignments:
-      - title: Skylight - The Aurora App
+      - title: Skylight - The Aurora App (Android)
         link: "https://github.com/gustavkarlsson/skylight-android"
         tagline: |
           The development of this Android app started in 2015 and has been a huge source of learnings for me.
@@ -138,64 +139,41 @@ projects:
 #         conference: Addison-Wesley, 1968
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
     toolset:
-      - name: Clean code
-        level: 50%
-
-      - name: Software architecture
-        level: 50%
+      - name: Kotlin
+        level: 90%
 
       - name: Android SDK
-        level: 50%
+        level: 75%
 
-      - name: Android Jetpack
-        level: 50%
-
-      - name: Kotlin
-        level: 50%
+      - name: Reactive programming
+        level: 85%
 
       - name: Coroutines
-        level: 50%
+        level: 70%
 
-      - name: Kotlin flow
-        level: 50%
-
-      - name: Jetpack Compose
-        level: 50%
-
-      - name: Unidirectional data flow
-        level: 50%
-
-      - name: Java
-        level: 50%
-
-      - name: RxJava
-        level: 50%
-
-      - name: Testing (unit/integration/instrumentation)
-        level: 50%
-
-      - name: Gradle
-        level: 50%
-
-      - name: Git
-        level: 50%
-
-      - name: Modularizing
-        level: 50%
-
-      - name: Firebase
-        level: 50%
-
-      - name: RESTful web services
-        level: 50%
+      - name: Architechure
+        level: 65%
 
       - name: Material Design
-        level: 50%
+        level: 70%
 
-      - name: Analytics and tracking
-        level: 50%
+      - name: Jetpack Compose
+        level: 70%
 
-      - name: Error monitoring
-        level: 50%
+      - name: Relational databases
+        level: 55%
+
+      - name: RESTful web services
+        level: 55%
+
+      - name: Gradle
+        level: 55%
+
+      - name: Firebase
+        level: 60%
+
+footer: |
+    Designed with <i class="fas fa-heart"></i> by
+    <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

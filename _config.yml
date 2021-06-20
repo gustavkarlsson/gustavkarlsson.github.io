@@ -1,179 +1,31 @@
-# Site
-repository: gustavkarlsson/gustavkarlsson.github.io
-favicon: images/favicon.ico
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# Content configuration version
-version: 2
+# Site Settings
+title: Gustav Karlsson | Senior Android Developer
+# url: 'http://webjeda.com'
+# baseurl: '/online-cv' #change it according to your repository name
+description: The CV of Gustav Karlsson
+theme_skin: ceramic # choice of: blue turquoise green berry orange ceramic
+chrome_mobile_color: '#4B6A78' # make sure to match theme_skin
 
-# Personal info
-name: Gustav Karlsson
-title: Software Engineer
-email: gustav.karlsson@gmail.com
-website: gustavkarlsson.github.io
+# Tracker
+# analytics: UA-83979019-1
 
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: gkarlsson86
-github_username:  gustavkarlsson
-linkedin_username: gustavkarlsson86
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: chillwildlife
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-about_title: About Me
-about_profile_image: images/profile.jpg 
-about_content: |
-  Hi, I'm Gustav. I'm a software engineer based in Frankfurt, Germany. I put 1's and 0's together to make stuff.
-
-  I'm currently working as a Senior Android Developer for [ioki](https://ioki.com).
-
-content:
-  - title: Notable skills
-    layout: text
-    content: |
-      These are some of my more important skills:
-       - Clean code
-       - Software architecture
-       - Android SDK
-       - Android Jetpack
-       - Kotlin
-       - Coroutines
-       - Kotlin flow
-       - Jetpack Compose
-       - Unidirectional data flow
-       - Java
-       - RxJava
-       - Testing (unit/integration/instrumentation)
-       - Gradle
-       - Git
-       - Modularizing
-       - Firebase
-       - RESTful web services
-       - Material Design
-       - Analytics and tracking
-       - Error monitoring
-
-      For soft skills, you'd best just get in touch with me ;)
-
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: Skylight - The Aurora App
-        link: gustavkarlsson/skylight-android
-        additional_links:
-          - title:  Skylight on Google Play
-            icon: fab fa-google-play
-            url: play.google.com/store/apps/details?id=se.gustavkarlsson.skylight.android
-        description: |
-          Skylight is a pet project I've been building and maintaining for many years. It's an app that will notifying you when you can see the northern lights. The project consists of an Android app and a small supporting backend server.
-
-          For me, the app is also a place where I try out new ideas. I've rewritten it several times (more and less from scratch) and it continues to be one of my primary learning tools.
-
-  - title: Work experience
-    layout: list
-    content:
-      - layout: left
-        title: ioki GmbH (Frankfurt)
-        link: ioki.com
-        sub_title: Senior Android Developer
-        caption: 2017 - Present
-        description: |
-          At Ioki we're building an on-demand platform for a strong public transport systems. As the de-facto lead of the Android team, my job consists of tasks such as:
-
-          * Native Android development using Kotlin
-          * Planning and prioritizing work in a Scrum environment
-          * Architecting the application together with the rest of the team
-          * Onboarding new team members to the company and team
-          * Representing the Android side when introducing new platform features
-
-      - layout: left
-        title: 360 Treasury Systems AG (Frankfurt)
-        link: 360t.com
-        sub_title: Software Engineer
-        caption: 2016 - 2017
-        description: |
-          360T is a foreign exchange marketplace and was my first workplace in Germany. I was part of the integration team, connecting client finance systems with the 360T platform to enable trading. Tasks consisted of:
-
-          * Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
-          * Architecting new solutions to large-scale problems
-          * Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
-          * Frequent presenter at internal developer meetups
-          * Mentoring of working students and other newcomers
-
-      - layout: left
-        title: C4 Contexture AB (Umeå)
-        link: ariser.se/pim
-        sub_title: Integration Consultant
-        caption: 2015 - 2016
-        description: |
-          C4 Contexture (since acquired by [Ariser](https://ariser.se)) was a software company specializing in building Product Information Management systems. My tasks during my (relatively short) time at the company included:
-
-          * Integrating Product Information Management systems oncustomer systems using proprietary configuration and scripting tools
-          * Solving modelling problems in line with customer needs
-
-      - layout: left
-        title: Tieto Sweden AB (Umeå)
-        link: tieto.com/se
-        sub_title: Software Developer
-        caption: 2011 - 2015
-        description: |
-          Tieto is a leading Nordic IT services and software company and my first workplace. At the time I was working there, the Umeå office specialised mostly in telecom. Some of the things I did in my team was:
-
-          * Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
-          * Discussing requirements and goals with customers on a daily basis
-          * Travelling abroad to train other development teams
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Umeå University (Umeå)
-        caption: 2006 - 2015
-        sub_title: Bachelor's degree in Computer Science
-        description: |
-          Studied Computer Science until 2011 when I took a study break to work at Tieto. A few years later I finished the studies with a thesis project.
-
-  - title: A Little More About Me
-    layout: text
-    content: |
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-       - Music (mostly jazz and funk)
-       - Gaming
-       - Philosophy
-       - British panel shows
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-plugins:
- - jekyll-seo-tag
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false

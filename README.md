@@ -1,7 +1,3 @@
 # My CV
 
-Located at [gustavkarlsson.github.io](https://gustavkarlsson.github.io/) and based on [github.com/sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme/).
-
-## Usage
-
-Edit the _config.yml file to change the content of the page.
+Located at [gustavkarlsson.github.io](https://gustavkarlsson.github.io/) and based on the [sharu725/online-cv](https://github.com/sharu725/online-cv/) theme.

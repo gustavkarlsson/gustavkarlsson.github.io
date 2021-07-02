@@ -34,7 +34,7 @@ sidebar:
         level: Fluent
 
       - idiom: German
-        level: Very poor
+        level: Poor
 
     interests:
       - item: Music
@@ -67,7 +67,8 @@ experiences:
       company: ioki GmbH, Frankfurt am Main
       details: |
         At ioki, we're building an on-demand platform for efficient and flexible public transport systems.
-        As the longest standing member of the team, I have laid a lot of the foundation and architecture for this rather complex application.
+        As the longest standing member of the team, I have laid a lot of the foundation and architecture for this application;
+        including theming, remote API communication and error handling.
         A few notable responsibilities:
           - Representing the Android side of things when discussing product-wide features
           - Played a big role in the hiring and interviewing other co-workers
@@ -81,7 +82,7 @@ experiences:
       details: |
         360T is a foreign exchange marketplace and was my first workplace in Germany.
         I was part of the integration team, connecting client finance systems (banks and large corporations) with
-        the 360T platform to enable trading. Tasks consisted of:
+        the 360T platform to enable trading. Tasks entailed:
           - Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
           - Architecting new solutions to large-scale problems
           - Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
@@ -123,7 +124,7 @@ projects:
         tagline: |
           The development of this Android app started in 2015 and has been a huge source of learnings for me.
           I use it mostly as a way to learn and try out new ideas.
-          It has gone major rewrites, a language change to Kotlin, modularization, migration to RxJava,
+          It has undergone major rewrites, a language change to Kotlin, modularization, migration to RxJava,
           migration to coroutines, migration to Jetpack Compose, and much more.
 
 # publications:

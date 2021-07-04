@@ -34,7 +34,7 @@ sidebar:
         level: Fluent
 
       - idiom: German
-        level: Poor
+        level: Basic
 
     interests:
       - item: Music
@@ -56,7 +56,7 @@ career-profile:
     title: Career Profile
     summary: |
       Senior software engineer currently living in Frankfurt, Germany.
-      De-facto lead developer of a small Android team at [ioki.com](http://ioki.com) with plenty of prior experience in backend development as well.
+      Lead developer of a small Android team at [ioki.com](http://ioki.com) with plenty of prior experience in backend development as well.
       Passionate about good engineering, comprehensible code, and great user experiences.
 
       References available on request.
@@ -71,10 +71,10 @@ experiences:
         including theming, remote API communication and error handling.
         A few notable responsibilities:
           - Representing the Android side of things when discussing product-wide features
-          - Played a big role in the hiring and interviewing other co-workers
+          - Playing a big part in hiring and interviewing other co-workers
           - Mentoring of new team members
-          - Made major contributions to modularizing the codebase
-          - Introduced a state-machine-backed unidirectional dataflow approach to development
+          - Making major contributions to modularizing the codebase
+          - Maintaining a state-machine-backed unidirectional dataflow approach to development
 
     - role: Software Engineer
       time: 2016 - 2017
@@ -86,7 +86,7 @@ experiences:
           - Developing and maintaining a large number of small Java applications that interact with customer systems through various API:s
           - Architecting new solutions to large-scale problems
           - Working with a wide range of data formats and protocols such as REST, SOAP, FIX, SFTP and email
-          - Frequent presenter at internal developer meetups
+          - Frequently presenting at internal developer meetups
           - Mentoring of working students and other newcomers
 
     - role: Integration Consultant
@@ -94,7 +94,7 @@ experiences:
       company: C4 Contexture AB, Umeå
       details: |
         C4 Contexture (since acquired by [Ariser](https://ariser.se/)) was a software company specializing in building Product Information Management systems.
-        My tasks during my (relatively short) time at the company included:
+        My tasks during my six months at the company included:
           - Integrating Product Information Management systems on customer provided platforms using proprietary configuration and scripting tools
           - Solving modelling problems in line with customer needs
 
@@ -103,7 +103,7 @@ experiences:
       company: Tieto Sweden AB, Umeå
       details: |
         Tieto (now [TietoEVRY](https://www.tietoevry.com/)) is a leading Nordic IT services and software company and my first workplace. At the time I was working there,
-        the Umeå office specialised mostly in telecom. Some of the things I did in the team was:
+        the Umeå office specialised mostly in telecom. Some of the things I did in the team were:
           - Developing and maintening a Java based full-stack web application built on MySQL, JPA, JAX-WS, JAX-RS and Apache Wicket
           - Discussing requirements and goals with customers on a daily basis
           - Travelling abroad to train other development teams
@@ -123,7 +123,7 @@ projects:
         link: "https://github.com/gustavkarlsson/skylight-android"
         tagline: |
           The development of this Android app started in 2015 and has been a huge source of learnings for me.
-          I use it mostly as a way to learn and try out new ideas.
+          I use it mostly as a way to learn and try out new ideas and technologies.
           It has undergone major rewrites, a language change to Kotlin, modularization, migration to RxJava,
           migration to coroutines, migration to Jetpack Compose, and much more.
 

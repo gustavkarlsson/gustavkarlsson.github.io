@@ -55,19 +55,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior software engineer currently living in Frankfurt, Germany.
+      Senior software engineer currently living in Stockholm, Sweden.
       Lead developer of a small Android team at [ioki.com](http://ioki.com) with plenty of prior experience in backend development as well.
       Passionate about good engineering, comprehensible code, and great user experiences.
 
       References available on request.
 
 experiences:
-    - role: Senior Android Developer
-      time: 2017 - Present
+    - role: Principal Android Engineer
+      time: 2017 - 2021
       company: ioki GmbH, Frankfurt am Main
       details: |
-        At ioki, we're building an on-demand platform for efficient and flexible public transport systems.
-        As the longest standing member of the team, I have laid a lot of the foundation and architecture for this application;
+        At ioki, I was building an on-demand platform for efficient and flexible public transport systems.
+        As the longest standing member of the Android team, I laid a lot of the foundation and architecture for this application;
         including theming, remote API communication and error handling.
         A few notable responsibilities:
           - Representing the Android side of things when discussing product-wide features

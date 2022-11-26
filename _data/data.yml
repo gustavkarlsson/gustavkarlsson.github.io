@@ -62,11 +62,23 @@ career-profile:
       References available on request.
 
 experiences:
+    - role: Full-stack Android Engineer
+      time: 2021 - Present
+      company: Epidemic Sound, Stockholm
+      details: |
+        As a member of the mobile platform team, my work at Epidemic involves every aspect of mobile development,
+        from architecting the networking code to pixel-perfect UI implementation (with some backend work included as well).
+        Standout tasks and responsibilities:
+          - Architecting specific integrations such as localization and marketing analytics
+          - Implementing a product design system using Jetpack Compose
+          - Talks around Kotlin and mobile development
+          - Working with Android media API:s
+
     - role: Principal Android Engineer
       time: 2017 - 2021
       company: ioki GmbH, Frankfurt am Main
       details: |
-        At ioki, I was building an on-demand platform for efficient and flexible public transport systems.
+        At ioki, my team built  an on-demand platform for efficient and flexible public transport systems.
         As the longest standing member of the Android team, I laid a lot of the foundation and architecture for this application;
         including theming, remote API communication and error handling.
         A few notable responsibilities:
@@ -152,7 +164,7 @@ skills:
         level: 85%
 
       - name: Coroutines
-        level: 70%
+        level: 80%
 
       - name: Architechure
         level: 65%
@@ -161,16 +173,16 @@ skills:
         level: 70%
 
       - name: Jetpack Compose
-        level: 70%
+        level: 85%
 
       - name: Relational databases
         level: 55%
 
       - name: RESTful web services
-        level: 55%
+        level: 65%
 
       - name: Gradle
-        level: 55%
+        level: 65%
 
       - name: Firebase
         level: 60%

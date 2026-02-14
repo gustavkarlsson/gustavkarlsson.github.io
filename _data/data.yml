@@ -16,7 +16,7 @@ sidebar:
     website: gustavkarlsson.github.io #do not add http://
     linkedin: gustavkarlsson86
     github: gustavkarlsson
-    twitter: '@gkarlsson86'
+    # twitter: '@gkarlsson86'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # goodreads: # Number-Username, e.g. 123456-alandoe
     # telegram: # nickname without '@'
@@ -36,28 +36,25 @@ sidebar:
       - idiom: German
         level: Basic
 
-    interests:
-      - item: Music
-        link:
-
-      - item: Tech
-        link:
-
-      - item: Philosophy
-        link:
-
-      - item: British panel shows
-        link:
-
-      # - item: I also like people peeking through the source code of my projects. Hi!
-      #   link:
+    # interests:
+    #   - item: Music
+    #     link:
+    # 
+    #   - item: Tech
+    #     link:
+    # 
+    #   - item: Philosophy
+    #     link:
+    #
+    #   - item: I also like people peeking through the source code of my projects. Hi!
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Senior software engineer currently living in Stockholm, Sweden.
-      Lead developer of a small Android team at [ioki.com](http://ioki.com) with plenty of prior experience in backend development as well.
-      Passionate about good engineering, comprehensible code, and great user experiences.
+      Senior software engineer living in Stockholm, Sweden.
+      Building the [Epidemic Sound](https://www.epidemicsound.com) Android app and a bit of backend work as well.
+      Passionate about good engineering, developer experience, and great user experiences.
 
       References available on request.
 
@@ -66,7 +63,7 @@ experiences:
       time: 2021 - Present
       company: Epidemic Sound, Stockholm
       details: |
-        As a member of the mobile platform team, my work at Epidemic involves every aspect of mobile development,
+        As a member of the mobile experience team, my work at Epidemic involves every aspect of mobile development,
         from architecting the networking code to pixel-perfect UI implementation (with some backend work included as well).
         Standout tasks and responsibilities:
           - Architecting specific integrations such as localization and marketing analytics
@@ -160,29 +157,29 @@ skills:
       - name: Android SDK
         level: 75%
 
-      - name: Reactive programming
-        level: 85%
-
       - name: Coroutines
         level: 80%
 
-      - name: Architechure
-        level: 65%
+      - name: Reactive programming
+        level: 85%
 
-      - name: Material Design
-        level: 70%
+      - name: Architechure
+        level: 75%
 
       - name: Jetpack Compose
         level: 85%
+
+      - name: Material Design
+        level: 70%
 
       - name: Relational databases
         level: 55%
 
       - name: RESTful web services
-        level: 65%
+        level: 75%
 
       - name: Gradle
-        level: 65%
+        level: 70%
 
       - name: Firebase
         level: 60%

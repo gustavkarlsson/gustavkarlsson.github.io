@@ -53,8 +53,10 @@ career-profile:
     title: Career Profile
     summary: |
       Senior software engineer living in Stockholm, Sweden.
-      Building the [Epidemic Sound](https://www.epidemicsound.com) Android app and a bit of backend work as well.
-      Passionate about good engineering, developer experience, and great user experiences.
+      Building the [Epidemic Sound](https://www.epidemicsound.com) Android app and backend-for-frontend (BFF) using
+      15 years of Android development experience together with modern agentic workflows..
+      Day-to-day work consists of everything from coding to architecting, optimizing AI tooling, product decisions, CI/CD, testing and much more.
+      Passionate about good engineering, scaling, developer experience, and great user experiences.
 
       References available on request.
 
@@ -155,7 +157,7 @@ skills:
         level: 90%
 
       - name: Android SDK
-        level: 75%
+        level: 80%
 
       - name: Coroutines
         level: 80%
@@ -164,7 +166,7 @@ skills:
         level: 85%
 
       - name: Architechure
-        level: 75%
+        level: 80%
 
       - name: Jetpack Compose
         level: 85%
@@ -172,17 +174,14 @@ skills:
       - name: Material Design
         level: 70%
 
-      - name: Relational databases
-        level: 55%
-
       - name: RESTful web services
-        level: 75%
+        level: 80%
 
       - name: Gradle
-        level: 70%
+        level: 75%
 
-      - name: Firebase
-        level: 60%
+      - name: Agentic engineering and AI tooling
+        level: 70%
 
 footer: |
     Designed with <i class="fas fa-heart"></i> by
